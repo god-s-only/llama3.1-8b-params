@@ -33,32 +33,13 @@ This repository contains a fine-tuned LLaMA 3.1 model that is optimized for proc
    cd llama3.1-8b-params
    ```
 
-2. **Set up a virtual environment:**
+2. **Run every cell in jupyter notebook:**
 
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+   
+   
    ```
 
-3. **Install dependencies:**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Start the FastAPI server:**
-
-   ```bash
-   python main.py
-   ```
-
-5. **Expose the server using ngrok:**
-
-   ```bash
-   ngrok http 8000
-   ```
-
-   Copy the ngrok URL provided and use it to access the API.
 
 ## API Endpoints
 
